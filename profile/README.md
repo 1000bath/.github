@@ -70,13 +70,12 @@
 
 <br /><br />
 
-**ณัฐพงศ์ ตะปะชุม**
+[![GitHub](https://img.shields.io/badge/1000bath-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/1000bath)
 
 <span style="color:#8b949e">Architect + Operator</span>
 
 <br /><br />
 
-[![GitHub](https://img.shields.io/badge/1000bath-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/1000bath)
 [![Location](https://img.shields.io/badge/Thailand-339933?style=flat-square)](https://maps.google.com/?q=Thailand)
 
 </div>
