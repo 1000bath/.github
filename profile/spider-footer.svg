@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50">
   <defs>
-    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#8b5cf6"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#8b5cf6"/>
+      <stop offset="70%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="80" fill="#0d1117"/>
-  <line x1="50" y1="20" x2="850" y2="20" stroke="url(#line)" stroke-width="2"/>
-  <text x="450" y="50" text-anchor="middle" font-family="monospace" font-size="12" fill="#6b7280">// Weaving the web of AI infrastructure</text>
-  <text x="450" y="70" text-anchor="middle" font-family="monospace" font-size="10" fill="#30363d">spider · 1000bath · 2025</text>
+  <line x1="0" y1="5" x2="900" y2="5" stroke="url(#fg)" stroke-width="2"/>
+  <text x="450" y="30" text-anchor="middle" font-family="monospace" font-size="10" fill="#30363d" letter-spacing="2">SPIDER · 1000BATH · 2025</text>
 </svg>

@@ -1,69 +1,81 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/1000bath/.github/main/profile/spider-header.svg" width="100%" />
+<br />
 
-# 🕷️ 1000bath
+<img src="https://raw.githubusercontent.com/1000bath/.github/main/profile/spider-logo.svg" width="80" />
 
-**Your personal AI infrastructure — because every spider needs a web.**
+<br /><br />
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue?style=flat-square&logo=typescript)](https://typescriptlang.org)
-[![Node.js](https://img.shields.io/badge/Node.js-24%2B-green?style=flat-square&logo=node.js)](https://nodejs.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/1000bath/agent/blob/main/LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-400%2B-brightgreen?style=flat-square)](https://github.com/1000bath)
-[![Deps](https://img.shields.io/badge/Deps-0-red?style=flat-square)](https://github.com/1000bath)
+# <span style="color:#8b5cf6;letter-spacing:8px">SPIDER</span>
 
-</div>
+<br />
 
----
+<span style="color:#8b949e;font-size:14px;letter-spacing:2px">PERSONAL AI INFRASTRUCTURE</span>
 
-## 🕸️ The Web
+<br /><br />
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/1000bath/.github/main/profile/spider-architecture.svg" width="80%" />
+[![GitHub](https://img.shields.io/badge/1000bath-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/1000bath)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![Node.js](https://img.shields.io/badge/Node.js-24-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+
 </div>
 
 <br />
 
+---
+
 <div align="center">
 
-| | Package | Description |
+<img src="https://raw.githubusercontent.com/1000bath/.github/main/profile/spider-divider.svg" width="100%" />
+
+</div>
+
+<br />
+
+## Division
+
+<div align="center">
+
+| | | |
 |:---:|:---|:---|
-| 🧠 | **[agent](https://github.com/1000bath/agent)** | Agent runtime — sessions, tools, subagents, skills, continual harness |
-| 🔀 | **[gateway](https://github.com/1000bath/gateway)** | OpenAI-compatible LLM gateway — failover, streaming, tool-call translation |
-| 💾 | **[memory](https://github.com/1000bath/memory)** | Hybrid memory engine — BM25 + vector + entity/AST graph over SQLite |
-| 🌐 | **[chatgpt](https://github.com/1000bath/chatgpt)** | Drive ChatGPT via Chrome DevTools Protocol — no API key, no puppeteer |
-| 🪞 | **[oracle](https://github.com/1000bath/oracle)** | Persona framework — encode identity as searchable knowledge for AI agents |
-| 🔌 | **[copilot-chat](https://github.com/1000bath/copilot-chat)** | VS Code extension — use gateway models inside GitHub Copilot Chat |
-| 🧩 | **[chrome-extension](https://github.com/1000bath/chrome-extension)** | Chrome bridge — connect signed-in ChatGPT to local gateway |
+| 🧠 | **[agent](https://github.com/1000bath/agent)** | Agent runtime — sessions, tools, subagents, skills |
+| 🔀 | **[gateway](https://github.com/1000bath/gateway)** | LLM gateway — failover, streaming, tool-call translation |
+| 💾 | **[memory](https://github.com/1000bath/memory)** | Memory engine — BM25 + vector + graph over SQLite |
+| 🌐 | **[chatgpt](https://github.com/1000bath/chatgpt)** | ChatGPT via CDP — no API key |
+| 🪞 | **[oracle](https://github.com/1000bath/oracle)** | Persona framework — encode identity as knowledge |
+| 🔌 | **[copilot-chat](https://github.com/1000bath/copilot-chat)** | VS Code extension — gateway in Copilot Chat |
+| 🧩 | **[chrome-extension](https://github.com/1000bath/chrome-extension)** | Chrome bridge — ChatGPT to local gateway |
 
 </div>
+
+<br />
 
 ---
 
-## 📊 At a Glance
-
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/1000bath/.github/main/profile/spider-stats.svg" width="60%" />
+<img src="https://raw.githubusercontent.com/1000bath/.github/main/profile/spider-stats.svg" width="100%" />
 
 </div>
+
+<br />
 
 ---
 
-## 🧬 About
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/1000bath/.github/main/profile/spider-avatar.svg" width="120" />
-</div>
-
 <div align="center">
 
-**ณัฐพงศ์ ตะปะชุม** — Architect + Operator
+<img src="https://raw.githubusercontent.com/1000bath/.github/main/profile/spider-avatar.svg" width="80" />
 
-*I build systems that think, remember, and act.*
+<br /><br />
 
-[![GitHub](https://img.shields.io/badge/GitHub-1000bath-181717?style=flat-square&logo=github)](https://github.com/1000bath)
-[![Location](https://img.shields.io/badge/Location-Thailand%20%F0%9F%87%B9%F0%9F%87%AD-blue?style=flat-square)](https://maps.google.com/?q=Thailand)
+**ณัฐพงศ์ ตะปะชุม**
+
+<span style="color:#8b949e">Architect + Operator</span>
+
+<br /><br />
+
+[![GitHub](https://img.shields.io/badge/1000bath-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/1000bath)
+[![Location](https://img.shields.io/badge/Thailand-339933?style=flat-square)](https://maps.google.com/?q=Thailand)
 
 </div>
 
