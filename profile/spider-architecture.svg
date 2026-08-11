@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg2)" rx="8"/>
+  <text x="300" y="30" text-anchor="middle" font-family="monospace" font-size="14" fill="#8b5cf6">ARCHITECTURE</text>
+
+  <!-- User -->
+  <rect x="200" y="50" width="200" height="35" fill="#21262d" stroke="#30363d" rx="4"/>
+  <text x="300" y="73" text-anchor="middle" font-family="monospace" font-size="12" fill="#f0f6fc">User / AI Agent</text>
+
+  <!-- Gateway -->
+  <rect x="60" y="120" width="160" height="35" fill="#1a1e2e" stroke="#8b5cf6" rx="4"/>
+  <text x="140" y="143" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b5cf6">gateway (HTTP)</text>
+
+  <!-- Oracle -->
+  <rect x="380" y="120" width="160" height="35" fill="#1a1e2e" stroke="#06b6d4" rx="4"/>
+  <text x="460" y="143" text-anchor="middle" font-family="monospace" font-size="12" fill="#06b6d4">oracle (RAG)</text>
+
+  <!-- Agent -->
+  <rect x="200" y="190" width="200" height="35" fill="#1a1e2e" stroke="#f59e0b" rx="4"/>
+  <text x="300" y="213" text-anchor="middle" font-family="monospace" font-size="12" fill="#f59e0b">agent (RLM)</text>
+
+  <!-- Memory -->
+  <rect x="80" y="260" width="140" height="30" fill="#1a1e2e" stroke="#10b981" rx="4"/>
+  <text x="150" y="280" text-anchor="middle" font-family="monospace" font-size="11" fill="#10b981">memory (SQLite)</text>
+
+  <!-- ChatGPT -->
+  <rect x="380" y="260" width="140" height="30" fill="#1a1e2e" stroke="#ec4899" rx="4"/>
+  <text x="450" y="280" text-anchor="middle" font-family="monospace" font-size="11" fill="#ec4899">chatgpt (CDP)</text>
+
+  <!-- Lines -->
+  <line x1="300" y1="85" x2="140" y2="120" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="300" y1="85" x2="460" y2="120" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="140" y1="155" x2="300" y2="190" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="300" y1="225" x2="150" y2="260" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="300" y1="225" x2="450" y2="260" stroke="#30363d" stroke-width="1.5"/>
+</svg>
