@@ -7,8 +7,20 @@
   </defs>
   <circle cx="60" cy="60" r="56" fill="none" stroke="url(#rg)" stroke-width="2.5"/>
   <circle cx="60" cy="60" r="50" fill="#0d1117"/>
-  <text x="60" y="45" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b5cf6">/\  /\</text>
-  <text x="60" y="60" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b5cf6">(OO)</text>
-  <text x="60" y="75" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b5cf6">(V)</text>
-  <text x="60" y="95" text-anchor="middle" font-family="monospace" font-size="7" fill="#30363d" letter-spacing="2">SPIDER</text>
+  <!-- Legs -->
+  <line x1="25" y1="35" x2="12" y2="15" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+  <line x1="28" y1="50" x2="10" y2="45" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+  <line x1="28" y1="70" x2="10" y2="80" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+  <line x1="25" y1="88" x2="12" y2="108" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+  <line x1="95" y1="35" x2="108" y2="15" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+  <line x1="92" y1="50" x2="110" y2="45" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+  <line x1="92" y1="70" x2="110" y2="80" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+  <line x1="95" y1="88" x2="108" y2="108" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+  <!-- Body -->
+  <circle cx="60" cy="60" r="22" fill="#0d1117" stroke="#8b5cf6" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <circle cx="52" cy="55" r="4" fill="#8b5cf6"/>
+  <circle cx="68" cy="55" r="4" fill="#06b6d4"/>
+  <circle cx="53" cy="54" r="1.5" fill="#fff"/>
+  <circle cx="69" cy="54" r="1.5" fill="#fff"/>
 </svg>

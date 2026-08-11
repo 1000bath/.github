@@ -10,10 +10,22 @@
     </linearGradient>
   </defs>
   <circle cx="100" cy="100" r="90" fill="url(#g2)" stroke="url(#g1)" stroke-width="3"/>
-  <text x="100" y="65" text-anchor="middle" font-family="monospace" font-size="18" fill="#8b5cf6">/\   /\</text>
-  <text x="100" y="85" text-anchor="middle" font-family="monospace" font-size="18" fill="#8b5cf6">{ O O }</text>
-  <text x="100" y="105" text-anchor="middle" font-family="monospace" font-size="18" fill="#8b5cf6">~~(V)~~</text>
-  <text x="100" y="125" text-anchor="middle" font-family="monospace" font-size="14" fill="#6b7280">\  ||  /</text>
-  <text x="100" y="145" text-anchor="middle" font-family="monospace" font-size="14" fill="#6b7280">\`--'</text>
-  <text x="100" y="170" text-anchor="middle" font-family="monospace" font-size="10" fill="#30363d" letter-spacing="4">SPIDER</text>
+  <!-- Spider legs -->
+  <line x1="50" y1="60" x2="25" y2="30" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="55" y1="75" x2="20" y2="65" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="55" y1="100" x2="20" y2="110" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="125" x2="25" y2="155" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="150" y1="60" x2="175" y2="30" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="145" y1="75" x2="180" y2="65" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="145" y1="100" x2="180" y2="110" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="150" y1="125" x2="175" y2="155" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Body -->
+  <circle cx="100" cy="100" r="35" fill="#0d1117" stroke="#8b5cf6" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="88" cy="92" r="6" fill="#8b5cf6"/>
+  <circle cx="112" cy="92" r="6" fill="#06b6d4"/>
+  <circle cx="90" cy="90" r="2" fill="#fff"/>
+  <circle cx="114" cy="90" r="2" fill="#fff"/>
+  <!-- Text -->
+  <text x="100" y="155" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e" letter-spacing="4">SPIDER</text>
 </svg>
