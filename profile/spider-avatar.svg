@@ -1,26 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Geometric spider avatar">
   <defs>
-    <linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8b5cf6"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="ringGradient" x1="17" y1="14" x2="103" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#06b6d4"/>
     </linearGradient>
+    <linearGradient id="bodyGradient" x1="45" y1="34" x2="75" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#263144"/>
+      <stop offset="0.48" stop-color="#151b2a"/>
+      <stop offset="1" stop-color="#090d15"/>
+    </linearGradient>
+    <filter id="purpleGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cyanGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <circle cx="60" cy="60" r="56" fill="none" stroke="url(#rg)" stroke-width="2.5"/>
-  <circle cx="60" cy="60" r="50" fill="#0d1117"/>
-  <!-- Legs -->
-  <line x1="25" y1="35" x2="12" y2="15" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
-  <line x1="28" y1="50" x2="10" y2="45" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
-  <line x1="28" y1="70" x2="10" y2="80" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
-  <line x1="25" y1="88" x2="12" y2="108" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
-  <line x1="95" y1="35" x2="108" y2="15" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
-  <line x1="92" y1="50" x2="110" y2="45" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
-  <line x1="92" y1="70" x2="110" y2="80" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
-  <line x1="95" y1="88" x2="108" y2="108" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
-  <!-- Body -->
-  <circle cx="60" cy="60" r="22" fill="#0d1117" stroke="#8b5cf6" stroke-width="1.5"/>
-  <!-- Eyes -->
-  <circle cx="52" cy="55" r="4" fill="#8b5cf6"/>
-  <circle cx="68" cy="55" r="4" fill="#06b6d4"/>
-  <circle cx="53" cy="54" r="1.5" fill="#fff"/>
-  <circle cx="69" cy="54" r="1.5" fill="#fff"/>
+
+  <circle cx="60" cy="60" r="57" fill="url(#ringGradient)"/>
+  <circle cx="60" cy="60" r="51" fill="#0d1117"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 44 L29 29 L17 20" stroke="#8b5cf6" stroke-width="4.6"/>
+    <path d="M44 53 L25 49 L12 47" stroke="#8b5cf6" stroke-width="4.6"/>
+    <path d="M44 66 L25 72 L12 76" stroke="#8b5cf6" stroke-width="4.6"/>
+    <path d="M48 76 L31 93 L20 104" stroke="#8b5cf6" stroke-width="4.6"/>
+
+    <path d="M72 44 L91 29 L103 20" stroke="#06b6d4" stroke-width="4.6"/>
+    <path d="M76 53 L95 49 L108 47" stroke="#06b6d4" stroke-width="4.6"/>
+    <path d="M76 66 L95 72 L108 76" stroke="#06b6d4" stroke-width="4.6"/>
+    <path d="M72 76 L89 93 L100 104" stroke="#06b6d4" stroke-width="4.6"/>
+  </g>
+
+  <circle cx="60" cy="59" r="22" fill="url(#bodyGradient)" stroke="#323b4f" stroke-width="2"/>
+  <path d="M51 42 Q60 35 69 42" fill="none" stroke="#48566f" stroke-width="2.8" stroke-linecap="round"/>
+
+  <circle cx="53" cy="57" r="4.4" fill="#8b5cf6" filter="url(#purpleGlow)"/>
+  <circle cx="67" cy="57" r="4.4" fill="#06b6d4" filter="url(#cyanGlow)"/>
+  <circle cx="54.2" cy="55.7" r="1.15" fill="#f8fafc" opacity="0.88"/>
+  <circle cx="68.2" cy="55.7" r="1.15" fill="#f8fafc" opacity="0.88"/>
 </svg>

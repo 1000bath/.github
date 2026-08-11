@@ -1,31 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">SPIDER tech company logo</title>
+  <desc id="desc">Minimal geometric spider logo with gradient ring, dark circular background, glowing eyes, eight legs, and SPIDER wordmark.</desc>
   <defs>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8b5cf6"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="ringGradient" x1="36" y1="30" x2="164" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#06b6d4"/>
     </linearGradient>
-    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="100%" style="stop-color:#161b22"/>
+    <linearGradient id="bodyGradient" x1="76" y1="62" x2="124" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#0d1117"/>
     </linearGradient>
+    <filter id="purpleGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cyanGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <circle cx="100" cy="100" r="90" fill="url(#g2)" stroke="url(#g1)" stroke-width="3"/>
-  <!-- Spider legs -->
-  <line x1="50" y1="60" x2="25" y2="30" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="55" y1="75" x2="20" y2="65" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="55" y1="100" x2="20" y2="110" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="50" y1="125" x2="25" y2="155" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="150" y1="60" x2="175" y2="30" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="145" y1="75" x2="180" y2="65" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="145" y1="100" x2="180" y2="110" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="150" y1="125" x2="175" y2="155" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Body -->
-  <circle cx="100" cy="100" r="35" fill="#0d1117" stroke="#8b5cf6" stroke-width="2"/>
-  <!-- Eyes -->
-  <circle cx="88" cy="92" r="6" fill="#8b5cf6"/>
-  <circle cx="112" cy="92" r="6" fill="#06b6d4"/>
-  <circle cx="90" cy="90" r="2" fill="#fff"/>
-  <circle cx="114" cy="90" r="2" fill="#fff"/>
-  <!-- Text -->
-  <text x="100" y="155" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e" letter-spacing="4">SPIDER</text>
+
+  <circle cx="100" cy="100" r="91" fill="url(#ringGradient)"/>
+  <circle cx="100" cy="100" r="84" fill="#0d1117"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 78 L56 58 L35 47" stroke="#8b5cf6" stroke-width="8"/>
+    <path d="M80 90 L48 83 L28 80" stroke="#8b5cf6" stroke-width="8"/>
+    <path d="M80 103 L48 111 L28 116" stroke="#8b5cf6" stroke-width="8"/>
+    <path d="M84 116 L57 137 L38 153" stroke="#8b5cf6" stroke-width="8"/>
+
+    <path d="M116 78 L144 58 L165 47" stroke="#06b6d4" stroke-width="8"/>
+    <path d="M120 90 L152 83 L172 80" stroke="#06b6d4" stroke-width="8"/>
+    <path d="M120 103 L152 111 L172 116" stroke="#06b6d4" stroke-width="8"/>
+    <path d="M116 116 L143 137 L162 153" stroke="#06b6d4" stroke-width="8"/>
+  </g>
+
+  <circle cx="100" cy="96" r="33" fill="url(#bodyGradient)" stroke="#30363d" stroke-width="3"/>
+  <path d="M88 70 Q100 60 112 70" fill="none" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+
+  <circle cx="90" cy="93" r="5.5" fill="#8b5cf6" filter="url(#purpleGlow)"/>
+  <circle cx="110" cy="93" r="5.5" fill="#06b6d4" filter="url(#cyanGlow)"/>
+
+  <text
+    x="100"
+    y="165"
+    fill="#e6edf3"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace"
+    font-size="18"
+    font-weight="700"
+    letter-spacing="4"
+    text-anchor="middle">SPIDER</text>
 </svg>
