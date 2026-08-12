@@ -1,4 +1,4 @@
-# 🕷️ spider
+# 🕷️ 1000Bath
 
 Personal AI infrastructure.
 
